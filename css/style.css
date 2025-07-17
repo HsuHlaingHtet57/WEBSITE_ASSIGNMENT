@@ -204,7 +204,7 @@
       font-weight: 500;
     }
 
-/* Categories Section */
+/* Index Categories Section */
 .categories {
   padding: 60px 20px;
   background-color: #ffffff;
@@ -269,7 +269,7 @@
   margin-bottom: 15px;
 }
 
-.category-box button {
+.category-box .btn {
   padding: 10px 20px;
   background-color: #555555; 
   color: white;
@@ -280,8 +280,9 @@
   transition: background-color 0.2s ease;
 }
 
-.category-box button:hover {
+.category-box .btn:hover {
   background-color: #000000; 
+  color: #ffffff;
 }
 
 /* Discount Section */
